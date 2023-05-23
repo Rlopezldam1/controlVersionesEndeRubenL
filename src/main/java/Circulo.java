@@ -35,5 +35,13 @@ public class Circulo implements FiguraGeometrica
     public void area() 
     {
         areaRadio = pi * radio * radio;
-    }    
+    }
+
+    @Override
+    public String toString() {
+        return "Circulo{" +
+                "radio=" + radio +
+                ", areaRadio=" + areaRadio +
+                '}';
+    }
 }
