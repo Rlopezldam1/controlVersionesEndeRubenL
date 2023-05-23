@@ -44,6 +44,15 @@ public class Triangulo implements FiguraGeometrica
     }
 
     @Override
+    public String toString() {
+        return "Triangulo{" +
+                "base=" + base +
+                ", altura=" + altura +
+                ", areaTriangulo=" + areaTriangulo +
+                '}';
+    }
+
+    @Override
     public void area() 
     {
         areaTriangulo = base * altura / 2;
